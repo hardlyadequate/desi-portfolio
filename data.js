@@ -31,6 +31,14 @@ const SOCIAL_LINKS = {
 const ITEMS = [
   {
     type: "youtube",
+    title: "How Claude Chat Share Links Really Work",
+    url: "https://www.youtube.com/watch?v=fZXzevteu9g",
+    description: "A look at how Claude chat share links actually work.",
+    tags: ["claude", "ai", "security"],
+    date: "2026-07-29"
+  },
+  {
+    type: "youtube",
     title: "BTLO Replay: BOT | Incident Response Lab Walkthrough",
     url: "https://www.youtube.com/watch?v=rC84V_7-mRU",
     description: "Walkthrough of the BOT incident response lab on Blue Team Labs Online.",
@@ -1579,21 +1587,6 @@ const ITEMS = [
     description: "Marco from Amped Software discusses digital image authenticity and integrity with Amped Authenticate.",
     tags: ["forensic-focus", "podcast", "guest-interview"],
     date: "2023-04-18"
-  },
-  {
-    type: "blog",
-    slug: "welcome",
-    title: "Welcome to my blog",
-    description: "The first post on my own little corner of the internet -- an intro to what I'll be writing about here.",
-    tags: ["blog", "announcement"],
-    date: "2026-07-12",
-    body: `
-      <p>Hi, I'm Desi. This is my blog -- a spot for original posts I write myself,
-      separate from the guides, podcast, and professional writing linked elsewhere
-      on this site.</p>
-      <p>Expect posts on cybersecurity, insider risk, fitness, and whatever else
-      is on my mind. More soon.</p>
-    `
   },
   {
     type: "press",

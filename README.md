@@ -10,8 +10,6 @@ database, free to host.
 - `styles.css` — all styling
 - `data.js` — **your content lives here.** Edit this file to add real entries.
 - `script.js` — search/filter logic (you shouldn't need to touch this)
-- `post.html` / `post.js` — the template that renders a single blog post
-  (used only by the "Blog" section, see below)
 
 ## Adding your real content
 
@@ -41,46 +39,11 @@ Also update `SOCIAL_LINKS` near the top of `data.js` (`youtube`, `podcast`,
 and newsletter homepage — these drive both the header links and the side
 menu icons automatically.
 
-### Blog — content you publish yourself
-
-The "Blog" section is different from every other section: instead of
-linking out to something hosted elsewhere, each entry is a full post that
-lives on this site and renders on its own page (`post.html`). Use it for
-original writing you want to publish directly here.
-
-A blog entry looks like this:
-
-```js
-{
-  type: "blog",
-  slug: "my-post-slug",          // used in the URL: post.html?slug=my-post-slug
-  title: "My Post Title",
-  description: "A short one- or two-sentence excerpt shown in the list.",
-  tags: ["blog", "cybersecurity"],
-  date: "2026-07-20",
-  body: `
-    <p>Your post content goes here, as plain HTML. Use <code>&lt;p&gt;</code>
-    tags for paragraphs, <code>&lt;h2&gt;</code> for section headings,
-    <code>&lt;ul&gt;</code>/<code>&lt;li&gt;</code> for lists, and
-    <code>&lt;img src="..."&gt;</code> for images.</p>
-    <p>Add as many paragraphs as you like.</p>
-  `
-}
-```
-
-To publish a new post: copy the block above, give it a unique `slug`
-(no spaces — use hyphens), and write your content inside the `body`
-template string using basic HTML tags. It'll show up in the Blog section
-automatically, and clicking it opens `post.html?slug=my-post-slug` with
-the full post rendered. There's a starter post (`slug: "welcome"`) already
-in `data.js` — edit or delete it once you've written your own.
-
 ### Press — media mentions
 
 The "Press" section is for articles, interviews, or podcasts on *other*
-sites where you're quoted or featured (as opposed to Blog, which is your
-own writing hosted here). It works exactly like the YouTube/Podcast/Writing
-sections — just link out with `type: "press"`:
+sites where you're quoted or featured. It works exactly like the
+YouTube/Podcast/Writing sections — just link out with `type: "press"`:
 
 ```js
 {
@@ -124,11 +87,11 @@ Then open `http://localhost:8000` in your browser.
 1. Create a free GitHub account at github.com if you don't have one.
 2. Create a new public repository (e.g. `my-work`).
 3. Upload these files (`index.html`, `styles.css`, `data.js`,
-   `script.js`, `post.html`, `post.js`) to the repository — either via the
+   `script.js`) to the repository — either via the
    "Add file → Upload files" button on github.com, or via git:
    ```
    git init
-   git add index.html styles.css data.js script.js post.html post.js README.md
+   git add index.html styles.css data.js script.js README.md
    git commit -m "Initial site"
    git branch -M main
    git remote add origin https://github.com/YOUR-USERNAME/my-work.git
@@ -153,6 +116,6 @@ initial deploy (an account is needed for future edits).
 ## Search behavior
 
 The search box matches against title, description, tags, and content type
-simultaneously. The type buttons (All / Blog / Writing / Press / YouTube /
+simultaneously. The type buttons (All / Writing / Press / YouTube /
 Podcast / Newsletter) and the tag chips can be combined with the search
 box — everything narrows the same result set.

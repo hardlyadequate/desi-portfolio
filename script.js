@@ -6,7 +6,6 @@
   };
 
   const lists = {
-    blog: document.getElementById("list-blog"),
     writing: document.getElementById("list-writing"),
     press: document.getElementById("list-press"),
     youtube: document.getElementById("list-youtube"),
@@ -14,7 +13,6 @@
     newsletter: document.getElementById("list-newsletter")
   };
   const sections = {
-    blog: document.querySelector('section[data-section="blog"]'),
     writing: document.querySelector('section[data-section="writing"]'),
     press: document.querySelector('section[data-section="press"]'),
     youtube: document.querySelector('section[data-section="youtube"]'),
@@ -91,11 +89,8 @@
 
   function rowHTML(item) {
     const tagsHTML = item.tags.map(escapeHTML).join(" · ");
-    const isInternal = item.type === "blog";
-    const href = isInternal ? `post.html?slug=${encodeURIComponent(item.slug || "")}` : item.url;
-    const linkAttrs = isInternal ? "" : ` target="_blank" rel="noopener noreferrer"`;
     return `
-      <a class="row" href="${escapeAttr(href)}"${linkAttrs}>
+      <a class="row" href="${escapeAttr(item.url)}" target="_blank" rel="noopener noreferrer">
         <div class="row-main">
           <span class="row-title">${escapeHTML(item.title)}</span>
           <div class="row-tags">${tagsHTML}</div>
