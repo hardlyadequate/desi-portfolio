@@ -1007,14 +1007,6 @@ const ITEMS = [
   },
   {
     type: "podcast",
-    title: "Leica's Marcus Rowe On Investigating The World's Largest Crash Test, Plus What To Expect At FEE 2026",
-    url: "https://www.forensicfocus.com/podcast/leicas-marcus-rowe-on-investigating-the-worlds-largest-crash-test-plus-what-to-expect-at-fee-2026/",
-    description: "Marcus Rowe from Leica Geosystems joins the Forensic Focus Podcast to talk about 3D laser scanning, Forensics Europe Expo 2026, and the role of LiDAR in modern crime and collision investigation.",
-    tags: ["forensic-focus", "podcast", "guest-interview", "conference"],
-    date: "2026-06-08"
-  },
-  {
-    type: "podcast",
     title: "S02E36 - Chat with Chris",
     url: "https://www.youtube.com/watch?v=YuZDCmAw8ls",
     description: "Guest chat with Chris on the Hardly Adequate podcast.",
