@@ -175,6 +175,14 @@ const ITEMS = [
   },
   {
     type: "writing",
+    title: "i³ Threat Advisory: Hermes AI Agent Detection",
+    url: "https://www.dtex.ai/resources/i%C2%B3-threat-advisory-hermes-ai-agent-detection/",
+    description: "A look at the Hermes AI agent, Claude's latest rival, with actionable detections to catch it before data exfiltration occurs.",
+    tags: ["writing", "ai", "agentic-ai", "insider-threat"],
+    date: "2026-07-16"
+  },
+  {
+    type: "writing",
     title: "i³ Threat Advisory: Detecting Claude Cowork Insider Threat Activity",
     url: "https://www.dtex.ai/resources/i%C2%B3-threat-advisory-detecting-claude-cowork-insider-threat-activity/",
     description: "Understand the Claude Cowork insider threat and discover essential strategies for mitigating risks associated with AI agents.",
@@ -999,6 +1007,14 @@ const ITEMS = [
   },
   {
     type: "podcast",
+    title: "Leica's Marcus Rowe On Investigating The World's Largest Crash Test, Plus What To Expect At FEE 2026",
+    url: "https://www.forensicfocus.com/podcast/leicas-marcus-rowe-on-investigating-the-worlds-largest-crash-test-plus-what-to-expect-at-fee-2026/",
+    description: "Marcus Rowe from Leica Geosystems joins the Forensic Focus Podcast to talk about 3D laser scanning, Forensics Europe Expo 2026, and the role of LiDAR in modern crime and collision investigation.",
+    tags: ["forensic-focus", "podcast", "guest-interview", "conference"],
+    date: "2026-06-08"
+  },
+  {
+    type: "podcast",
     title: "S02E36 - Chat with Chris",
     url: "https://www.youtube.com/watch?v=YuZDCmAw8ls",
     description: "Guest chat with Chris on the Hardly Adequate podcast.",
@@ -1595,6 +1611,78 @@ const ITEMS = [
     description: "CyberScoop covers DTEX research on agentic AI insider risk, quoting Alex Desmond on how Claude Cowork workflows can shrink the exfiltration kill chain to minutes.",
     tags: ["press", "ai", "insider-threat", "cyberscoop"],
     date: "2026-06-04"
+  },
+  {
+    type: "press",
+    title: "AI Agents Increase Insider Data-Exfiltration Risk",
+    url: "https://letsdatascience.com/news/ai-agents-increase-insider-data-exfiltration-risk-438e0936",
+    description: "Let's Data Science covers the DTEX Claude Cowork research, quoting Alex Desmond on the exfiltration kill chain compressing from hours to as little as 10 to 30 minutes.",
+    tags: ["press", "ai", "agentic-ai", "insider-threat"],
+    date: "2026-06-04"
+  },
+  {
+    type: "newsletter",
+    title: "Managed Completely Independently - Issue #19",
+    url: "https://desi-5.kit.com/posts/managed-completely-independently-issue-19-insider-threat-weekly",
+    description: "Insider trading on prediction markets, the cutout that hides it, plus AI agents as your newest insider and a spy caught by a fake Slack channel.",
+    tags: ["newsletter", "insider-threat", "fraud", "ai"],
+    date: "2026-08-23"
+  },
+  {
+    type: "newsletter",
+    title: "We are close to letting machines decide who lives and who dies",
+    url: "https://desi-5.kit.com/posts/we-are-close-to-letting-machines-decide-who-lives-and-who-dies",
+    description: "We are close to letting machines pick and kill human targets with no human deciding. The ethics, the accountability gap, and why no treaty exists.",
+    tags: ["newsletter", "ai", "ethics"],
+    date: "2026-08-19"
+  },
+  {
+    type: "newsletter",
+    title: "AI can learn to deceive. That is not the same as AI waking up.",
+    url: "https://desi-5.kit.com/posts/ai-can-learn-to-deceive-that-is-not-the-same-as-ai-waking-up",
+    description: "Advanced AI has learned to deceive in the lab. No, it is not waking up, but here is why that still matters for anyone deploying these systems.",
+    tags: ["newsletter", "ai", "ethics"],
+    date: "2026-08-18"
+  },
+  {
+    type: "newsletter",
+    title: "The chatbot that always agrees: why AI built to please can turn dangerous",
+    url: "https://desi-5.kit.com/posts/the-chatbot-that-always-agrees-why-ai-built-to-please-can-turn-dangerous",
+    description: "AI chatbots are trained to agree with us. For people in crisis, that design can turn dangerous. Inside the cases, the research, and the law.",
+    tags: ["newsletter", "ai", "ethics"],
+    date: "2026-08-17"
+  },
+  {
+    type: "newsletter",
+    title: "Insider Threat Weekly - Issue #18 - The Insider Is Already at Every Layer",
+    url: "https://desi-5.kit.com/posts/insider-threat-weekly-issue-18-the-insider-is-already-at-every-layer",
+    description: "AI agents are insider threats at every layer. Plus a DPRK worker inside a US agency, and a postal inspector who robbed the victims he protected.",
+    tags: ["newsletter", "ai", "agentic-ai", "dprk", "insider-threat"],
+    date: "2026-08-16"
+  },
+  {
+    type: "newsletter",
+    title: "Insider Threat Weekly - Issue #17",
+    url: "https://desi-5.kit.com/posts/insider-threat-weekly-issue-17",
+    description: "This week: an AI agent runs its own supply chain attack, LG's OLED secrets leak to China, KPMG's whistleblower fallout, and a White House bet gone wrong.",
+    tags: ["newsletter", "ai", "espionage", "insider-threat"],
+    date: "2026-08-09"
+  },
+  {
+    type: "newsletter",
+    title: "Insider Threat Weekly - Issue #16",
+    url: "https://desi-5.kit.com/posts/insider-threat-weekly-issue-16",
+    description: "Anthropic's cybersecurity evals through an insider threat lens, including the capture-the-flag exercise Claude actually won.",
+    tags: ["newsletter", "ai", "agentic-ai"],
+    date: "2026-08-02"
+  },
+  {
+    type: "newsletter",
+    title: "The Defender's Guide to Agentic AI",
+    url: "https://desi-5.kit.com/posts/the-defender-s-guide-to-agentic-ai",
+    description: "A defender's framework for agentic AI risk: the Lethal Trifecta, insider-threat kill chains, and endpoint detection indicators.",
+    tags: ["newsletter", "ai", "agentic-ai", "insider-threat"],
+    date: "2026-08-01"
   },
   {
     type: "newsletter",
