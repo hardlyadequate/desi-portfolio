@@ -1630,6 +1630,30 @@ const ITEMS = [
   },
   {
     type: "newsletter",
+    title: "China's Chip Grab - Issue #22",
+    url: "https://desi-5.kit.com/posts/china-s-chip-grab-issue-22-insider-threat-weekly",
+    description: "Chip secrets smuggled on a hidden camera, Australia's mortgage-fraud web, a border lane sold to a cartel, and an AI agent handed the delete key.",
+    tags: ["newsletter", "china", "fraud", "ai", "insider-threat"],
+    date: "2026-09-13"
+  },
+  {
+    type: "newsletter",
+    title: "The Investigator Who Became the Thief - Issue #21",
+    url: "https://desi-5.kit.com/posts/the-investigator-who-became-the-thief-issue-21-insider-threat-weekly",
+    description: "An FBI agent stole crypto from his own case, a ChatGPT expert report backfired in court, and cops misused the cameras. Who watches the watchers?",
+    tags: ["newsletter", "fraud", "ai", "insider-threat"],
+    date: "2026-09-06"
+  },
+  {
+    type: "newsletter",
+    title: "The Insider Threat Division's Own Insider - Issue #20",
+    url: "https://desi-5.kit.com/posts/the-insider-threat-division-s-own-insider-issue-20-insider-threat-weekly",
+    description: "Amid the AI panic, the human insider had a big week: a DIA spy on a thumb drive, hijacked coding agents, and a fiduciary who robbed his clients.",
+    tags: ["newsletter", "espionage", "ai", "fraud", "insider-threat"],
+    date: "2026-08-30"
+  },
+  {
+    type: "newsletter",
     title: "Managed Completely Independently - Issue #19",
     url: "https://desi-5.kit.com/posts/managed-completely-independently-issue-19-insider-threat-weekly",
     description: "Insider trading on prediction markets, the cutout that hides it, plus AI agents as your newest insider and a spy caught by a fake Slack channel.",
