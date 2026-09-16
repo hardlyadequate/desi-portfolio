@@ -175,6 +175,22 @@ const ITEMS = [
   },
   {
     type: "writing",
+    title: "China's Insider Advantage, Part 2: The Evolution of China's Thousand Talents Program",
+    url: "https://www.dtex.ai/resources/china-insider-risk-report-part-1-2-2/",
+    description: "Part two of the DTEX China's Insider Advantage report series, tracing the Thousand Talents Program from its 2008 launch and why a state talent program belongs in an insider risk report. Co-author.",
+    tags: ["writing", "report", "china", "nation-state", "espionage"],
+    date: "2026-08-12"
+  },
+  {
+    type: "writing",
+    title: "China's Insider Advantage, Part 1: Inside China's Talent Acquisition Ecosystem",
+    url: "https://www.dtex.ai/resources/china-insider-risk-report-part-1-2/",
+    description: "Part one of the DTEX China's Insider Advantage report series, examining China's talent acquisition ecosystem as a national priority and how it turns trusted access into long-term technology transfer. Contributing researcher.",
+    tags: ["writing", "report", "china", "nation-state", "espionage"],
+    date: "2026-06-23"
+  },
+  {
+    type: "writing",
     title: "i³ Threat Advisory: Hermes AI Agent Detection",
     url: "https://www.dtex.ai/resources/i%C2%B3-threat-advisory-hermes-ai-agent-detection/",
     description: "A look at the Hermes AI agent, Claude's latest rival, with actionable detections to catch it before data exfiltration occurs.",
