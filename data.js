@@ -175,6 +175,14 @@ const ITEMS = [
   },
   {
     type: "writing",
+    title: "AI Distillation: China's Latest Insider Attack Angle",
+    url: "https://www.dtex.ai/blog/ai-distillation-chinas-latest-insider-attack-angle/",
+    description: "A DTEX blog examining industrial-scale AI model distillation by China-based AI companies as the latest angle on insider-enabled technology transfer, and what it means for insider risk programs. Contributing researcher.",
+    tags: ["writing", "ai", "china", "nation-state", "insider-threat"],
+    date: "2026-09-18"
+  },
+  {
+    type: "writing",
     title: "China's Insider Advantage, Part 2: The Evolution of China's Thousand Talents Program",
     url: "https://www.dtex.ai/resources/china-insider-risk-report-part-1-2-2/",
     description: "Part two of the DTEX China's Insider Advantage report series, tracing the Thousand Talents Program from its 2008 launch and why a state talent program belongs in an insider risk report. Co-author.",
