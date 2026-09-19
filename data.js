@@ -199,7 +199,15 @@ const ITEMS = [
   },
   {
     type: "writing",
-    title: "i³ Threat Advisory: Hermes AI Agent Detection",
+    title: "i³ Threat Advisory: AI Agent Access Control Risks: When Permissions Exceed Entitlements",
+    url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-agent-access-control/",
+    description: "Examines how AI agent permissions drift beyond user entitlements — ambient authority, compounding cross-agent delegation — and the scoping, allowlisting, and JIT entitlement controls that contain it.",
+    tags: ["writing", "ai", "agentic-ai", "access-control", "insider-threat"],
+    date: "2026-09-15"
+  },
+  {
+    type: "writing",
+    title: "i³ Threat Advisory: Hermes AI Agent Detection and the End of Claude's Dominance",
     url: "https://www.dtex.ai/resources/i%C2%B3-threat-advisory-hermes-ai-agent-detection/",
     description: "A look at the Hermes AI agent, Claude's latest rival, with actionable detections to catch it before data exfiltration occurs.",
     tags: ["writing", "ai", "agentic-ai", "insider-threat"],
@@ -271,7 +279,7 @@ const ITEMS = [
   },
   {
     type: "writing",
-    title: "i³ Threat Advisory: Insider Sabotage: When Trusted Hires Turn Rogue",
+    title: "i³ Threat Advisory: Insider Sabotage: Logic Bomb Detection and Post-Termination Monitoring",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-when-trusted-hires-turn-rogue/",
     description: "Mitigate insider threats with AI. Learn how generative AI monitoring and enforcement exposed a rogue engineer's sabotage attempt.",
     tags: ["writing", "insider-threat", "sabotage", "ai"],
