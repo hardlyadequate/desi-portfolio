@@ -295,6 +295,14 @@ const ITEMS = [
   },
   {
     type: "writing",
+    title: "i³ Threat Advisory: People's Republic of China - Volt Typhoon",
+    url: "https://www.dtex.ai/resources/i3-threat-advisory-peoples-republic-of-china-volt-typhoon/",
+    description: "Detection queries and behavioral indicators for surfacing Volt Typhoon living-off-the-land activity, following the CISA joint advisory on the PRC state-sponsored actor.",
+    tags: ["writing", "china", "nation-state", "insider-threat"],
+    date: "2024-03-01"
+  },
+  {
+    type: "writing",
     title: "i³ Threat Advisory: Insider Risk Detection Strategies for Evolving Nation State Cyber Espionage Campaigns",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-detecting-cyber-espionage/",
     description: "Learn insider risk detection strategies for nation-state cyber espionage. Secure your telecom network with proactive monitoring and employee training.",
