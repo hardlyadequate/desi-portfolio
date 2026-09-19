@@ -34,7 +34,7 @@ const ITEMS = [
     title: "How Claude Chat Share Links Really Work",
     url: "https://www.youtube.com/watch?v=fZXzevteu9g",
     description: "A look at how Claude chat share links actually work.",
-    tags: ["claude", "ai", "security"],
+    tags: ["ai", "cybersecurity"],
     date: "2026-07-29"
   },
   {
@@ -58,7 +58,7 @@ const ITEMS = [
     title: "BTLO Replay: STICKY SITUATION | Digital Forensics Lab Walkthrough",
     url: "https://www.youtube.com/watch?v=OF245zLUxjo",
     description: "Walkthrough of the STICKY SITUATION digital forensics lab on Blue Team Labs Online.",
-    tags: ["digital-forensics", "walkthrough", "btlo"],
+    tags: ["forensics", "walkthrough", "btlo"],
     date: "2023-09-30"
   },
   {
@@ -202,7 +202,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: AI Agent Access Control Without Entitlement",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-agent-access-control/",
     description: "Examines how AI agent permissions drift beyond user entitlements — ambient authority, compounding cross-agent delegation — and the scoping, allowlisting, and JIT entitlement controls that contain it.",
-    tags: ["writing", "ai", "agentic-ai", "access-control", "insider-threat"],
+    tags: ["writing", "ai", "agentic-ai", "insider-threat"],
     date: "2026-09-08"
   },
   {
@@ -242,7 +242,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: How Agentic AI Browsers Elevate Insider Risk",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-agentic-browsers-elevate-insider-risk/",
     description: "Agentic AI browsers are reshaping insider risk. This advisory examines real-world misuse scenarios and outlines controls to mitigate AI-driven data loss.",
-    tags: ["writing", "ai", "agentic-ai", "browsers"],
+    tags: ["writing", "ai", "agentic-ai"],
     date: "2026-02-04"
   },
   {
@@ -250,7 +250,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: AI-enabled Insider Executes Full Insider Threat Kill Chain",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-insider-executes-full-kill-chain/",
     description: "DTEX i3 investigates a network specialist who leveraged access and AI to complete all stages of the Insider Threat Kill Chain.",
-    tags: ["writing", "ai", "insider-threat", "kill-chain"],
+    tags: ["writing", "ai", "insider-threat"],
     date: "2025-12-10"
   },
   {
@@ -266,7 +266,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: Detecting and Preventing AI Agent Prompt Injection Risks",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-agent-prompt-injection-risks/",
     description: "Discover how AI agent prompt injection exposes credentials and insider risks, and what steps you can take now to secure enterprise systems.",
-    tags: ["writing", "ai", "prompt-injection", "agentic-ai"],
+    tags: ["writing", "ai", "agentic-ai"],
     date: "2025-09-10"
   },
   {
@@ -274,7 +274,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: Uncovering the Top Risks of AI Agents and How to Mitigate Them",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-mitigating-ai-agent-risks/",
     description: "An overview of AI agent risk including task attribution, data exposure, and prompt injection, with mitigation strategies for security teams.",
-    tags: ["writing", "ai", "agentic-ai", "risk-management"],
+    tags: ["writing", "ai", "agentic-ai", "insider-threat"],
     date: "2025-07-30"
   },
   {
@@ -282,7 +282,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: Insider Sabotage: Logic Bomb Detection and Post-Termination Monitoring",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-when-trusted-hires-turn-rogue/",
     description: "Mitigate insider threats with AI. Learn how generative AI monitoring and enforcement exposed a rogue engineer's sabotage attempt.",
-    tags: ["writing", "insider-threat", "sabotage", "ai"],
+    tags: ["writing", "insider-threat", "ai"],
     date: "2025-06-17"
   },
   {
@@ -290,7 +290,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: AI Note-Taking Tools for Data Exfiltration",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-note-taking-tools/",
     description: "Understand the risks of AI note-taking tools and discover methods for detecting data exfiltration to protect your data.",
-    tags: ["writing", "ai", "data-exfiltration", "note-taking"],
+    tags: ["writing", "ai", "data-exfiltration"],
     date: "2025-03-24"
   },
   {
@@ -322,7 +322,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: Detecting and Preventing Credential Misuse and Compromise",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-detecting-preventing-credential-misuse-and-compromise/",
     description: "This Insider Threat Advisory provides important detections and mitigations for detecting and preventing credential misuse.",
-    tags: ["writing", "credentials", "insider-threat"],
+    tags: ["writing", "identity", "insider-threat"],
     date: "2024-08-29"
   },
   {
@@ -330,7 +330,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: Disrupting Foreign Interference",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-indicators-for-detecting-deterring-and-disrupting-foreign-interference/",
     description: "This DTEX Insider Threat Advisory provides indicators for detecting, deterring, and disrupting foreign interference.",
-    tags: ["writing", "foreign-interference", "espionage"],
+    tags: ["writing", "espionage"],
     date: "2024-08-24"
   },
   {
@@ -338,7 +338,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: Mitigating Living off the Land Attacks Using Insider Risk Monitoring",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-mitigating-living-off-the-land-attacks-using-insider-risk-monitoring/",
     description: "DTEX i3 recommends organizations take the following steps and leverage insider risk monitoring to help prevent living-off-the-land attacks.",
-    tags: ["writing", "living-off-the-land", "cloud-security"],
+    tags: ["writing", "living-off-the-land", "cloud"],
     date: "2024-08-24"
   },
   {
@@ -354,7 +354,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: Insecure Web Apps Creating High Risk for Insider Abuse",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-insecure-web-apps-creating-high-risk-for-insider-abuse/",
     description: "DTEX i³ reveals insider risks in misconfigured web apps and shares steps to detect, mitigate, and prevent unauthorized access and data exposure.",
-    tags: ["writing", "web-security", "vulnerabilities"],
+    tags: ["writing", "cybersecurity", "vulnerabilities"],
     date: "2024-08-20"
   },
   {
@@ -362,7 +362,7 @@ const ITEMS = [
     title: "i³ Threat Advisory: Identifying North Korean IT Workers: Key Threat Indicators",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-inside-the-dprk/",
     description: "Uncover the key insider threat indicators for identifying North Korean IT workers in this DTEX Threat Advisory.",
-    tags: ["writing", "dprk", "nation-state", "it-workers"],
+    tags: ["writing", "dprk", "nation-state"],
     date: "2025-05-14"
   },
   {
@@ -474,7 +474,7 @@ const ITEMS = [
     title: "The Complete Coach Strategy: Implement Yourself for Free",
     url: "https://www.youtube.com/watch?v=TEljRGVy_tw",
     description: "A free, self-implementable coaching strategy breakdown.",
-    tags: ["fitness", "coaching"],
+    tags: ["fitness", "mentoring"],
     date: "2025-08-12"
   },
   {
@@ -506,7 +506,7 @@ const ITEMS = [
     title: "Taking your own measurements",
     url: "https://www.youtube.com/watch?v=WIkalsHFFFg",
     description: "How-to on taking your own body measurements.",
-    tags: ["fitness", "how-to"],
+    tags: ["fitness", "tutorial"],
     date: "2025-07-12"
   },
   {
@@ -610,7 +610,7 @@ const ITEMS = [
     title: "Thunder Challenge - Rogue 2024",
     url: "https://www.youtube.com/watch?v=eCXLrLLhT7I",
     description: "Competing in the Thunder Challenge at Rogue, 2024.",
-    tags: ["fitness", "competition"],
+    tags: ["fitness", "ctf"],
     date: "2024-07-12"
   },
   {
@@ -690,7 +690,7 @@ const ITEMS = [
     title: "Master's Degree in Cyber Security: My Experience and Insights",
     url: "https://www.youtube.com/watch?v=se9r-Ooe3Js",
     description: "Personal experience and insights from completing a Master's in Cyber Security.",
-    tags: ["cybersecurity", "career", "education"],
+    tags: ["cybersecurity", "career", "training"],
     date: "2025-07-12"
   },
   {
@@ -706,7 +706,7 @@ const ITEMS = [
     title: "Unlocking Business Success in the Middle East: Strategies and Cyber Threats",
     url: "https://www.youtube.com/watch?v=BJZG0YEClgE",
     description: "Business strategy and cyber threat landscape in the Middle East.",
-    tags: ["cybersecurity", "threat-intel"],
+    tags: ["cybersecurity"],
     date: "2025-07-12"
   },
   {
@@ -786,7 +786,7 @@ const ITEMS = [
     title: "How to Maximize Your Security Stack for Ultimate Protection",
     url: "https://www.youtube.com/watch?v=6kwopx1gc7o",
     description: "How to get the most protection out of your security stack.",
-    tags: ["cybersecurity", "defense"],
+    tags: ["cybersecurity"],
     date: "2025-07-12"
   },
   {
@@ -858,7 +858,7 @@ const ITEMS = [
     title: "Creating Stunning Snapshot Report Cards with Grafana",
     url: "https://www.youtube.com/watch?v=wLBbc5Pvse4",
     description: "Building snapshot report cards using Grafana.",
-    tags: ["cybersecurity", "reporting", "tools"],
+    tags: ["cybersecurity", "writing"],
     date: "2024-07-12"
   },
   {
@@ -890,7 +890,7 @@ const ITEMS = [
     title: "Google Sheets C2 Cloud living off the land",
     url: "https://www.youtube.com/watch?v=MhQ9LJvto8w",
     description: "Using Google Sheets as a C2 channel — a living-off-the-land technique.",
-    tags: ["cybersecurity", "living-off-the-land", "technical"],
+    tags: ["cybersecurity", "living-off-the-land"],
     date: "2024-07-12"
   },
   {
@@ -1250,7 +1250,7 @@ const ITEMS = [
     title: "Fitness Shorts (workout clip library)",
     url: "https://www.youtube.com/@desiofalltrades/shorts",
     description: "A library of short exercise-demo clips — browse the full collection on the channel's Shorts tab.",
-    tags: ["fitness", "shorts"]
+    tags: ["fitness"]
   },
   {
     type: "podcast",
@@ -1641,7 +1641,7 @@ const ITEMS = [
     title: "Your AI agent could become your biggest insider threat",
     url: "https://cyberscoop.com/ai-agent-insider-threat-cybersecurity-dtex/",
     description: "CyberScoop covers DTEX research on agentic AI insider risk, quoting Alex Desmond on how Claude Cowork workflows can shrink the exfiltration kill chain to minutes.",
-    tags: ["press", "ai", "insider-threat", "cyberscoop"],
+    tags: ["press", "ai", "insider-threat"],
     date: "2026-06-04"
   },
   {
