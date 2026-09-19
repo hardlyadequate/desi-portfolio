@@ -223,7 +223,7 @@ const ITEMS = [
   },
   {
     type: "writing",
-    title: "i³ Threat Advisory - Detecting Agentic AI Before Data Exfiltration",
+    title: "i³ Threat Advisory: Detecting Agentic AI Before Data Exfiltration",
     url: "https://www.dtex.ai/resources/i%C2%B3-threat-advisory-detecting-agentic-ai-on-endpoints-before-data-exfiltration/",
     description: "Explore the risks of agentic AI data exfiltration and discover essential measures for endpoint security and monitoring.",
     tags: ["writing", "ai", "agentic-ai", "data-exfiltration"],
