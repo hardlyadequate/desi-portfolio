@@ -219,15 +219,15 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i%C2%B3-threat-advisory-detecting-claude-cowork-insider-threat-activity/",
     description: "Understand the Claude Cowork insider threat and discover essential strategies for mitigating risks associated with AI agents.",
     tags: ["writing", "ai", "agentic-ai", "insider-threat"],
-    date: "2026-07-10"
+    date: "2026-06-04"
   },
   {
     type: "writing",
-    title: "i³ Threat Advisory: Detecting Agentic AI on Endpoints Before Data Exfiltration",
+    title: "i³ Threat Advisory: Detecting Agentic AI Before Data Exfiltration",
     url: "https://www.dtex.ai/resources/i%C2%B3-threat-advisory-detecting-agentic-ai-on-endpoints-before-data-exfiltration/",
     description: "Explore the risks of agentic AI data exfiltration and discover essential measures for endpoint security and monitoring.",
     tags: ["writing", "ai", "agentic-ai", "data-exfiltration"],
-    date: "2026-04-27"
+    date: "2026-04-23"
   },
   {
     type: "writing",
@@ -243,7 +243,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-agentic-browsers-elevate-insider-risk/",
     description: "Agentic AI browsers are reshaping insider risk. This advisory examines real-world misuse scenarios and outlines controls to mitigate AI-driven data loss.",
     tags: ["writing", "ai", "agentic-ai", "browsers"],
-    date: "2026-05-04"
+    date: "2026-02-04"
   },
   {
     type: "writing",
@@ -267,7 +267,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-agent-prompt-injection-risks/",
     description: "Discover how AI agent prompt injection exposes credentials and insider risks, and what steps you can take now to secure enterprise systems.",
     tags: ["writing", "ai", "prompt-injection", "agentic-ai"],
-    date: "2026-06-14"
+    date: "2025-09-10"
   },
   {
     type: "writing",
@@ -291,7 +291,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-note-taking-tools/",
     description: "Understand the risks of AI note-taking tools and discover methods for detecting data exfiltration to protect your data.",
     tags: ["writing", "ai", "data-exfiltration", "note-taking"],
-    date: "2026-06-08"
+    date: "2025-03-24"
   },
   {
     type: "writing",
@@ -303,7 +303,7 @@ const ITEMS = [
   },
   {
     type: "writing",
-    title: "i³ Threat Advisory: Insider Risk Detection Strategies for Evolving Nation State Cyber Espionage Campaigns",
+    title: "i³ Threat Advisory: How to Detect Nation State Insider Threats",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-detecting-cyber-espionage/",
     description: "Learn insider risk detection strategies for nation-state cyber espionage. Secure your telecom network with proactive monitoring and employee training.",
     tags: ["writing", "espionage", "nation-state", "telecom"],
@@ -311,7 +311,7 @@ const ITEMS = [
   },
   {
     type: "writing",
-    title: "i³ Threat Advisory: Defending Against a Persistent Exfiltration Vector - Unauthorized Printing",
+    title: "i³ Threat Advisory: Defending Against a Persistent Exfiltration Vector – Unauthorized Printing",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-defending-against-unauthorized-printing/",
     description: "Defend your organization against data loss originating from the persistent threat of unauthorized printing.",
     tags: ["writing", "data-exfiltration", "physical-security"],
@@ -363,7 +363,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-inside-the-dprk/",
     description: "Uncover the key insider threat indicators for identifying North Korean IT workers in this DTEX Threat Advisory.",
     tags: ["writing", "dprk", "nation-state", "it-workers"],
-    date: "2026-06-08"
+    date: "2025-05-14"
   },
   {
     type: "youtube",
