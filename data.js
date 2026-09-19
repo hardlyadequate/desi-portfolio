@@ -199,15 +199,15 @@ const ITEMS = [
   },
   {
     type: "writing",
-    title: "i³ Threat Advisory: AI Agent Access Control Risks: When Permissions Exceed Entitlements",
+    title: "i³ Threat Advisory: AI Agent Access Control Without Entitlement",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-agent-access-control/",
     description: "Examines how AI agent permissions drift beyond user entitlements — ambient authority, compounding cross-agent delegation — and the scoping, allowlisting, and JIT entitlement controls that contain it.",
     tags: ["writing", "ai", "agentic-ai", "access-control", "insider-threat"],
-    date: "2026-09-15"
+    date: "2026-09-08"
   },
   {
     type: "writing",
-    title: "i³ Threat Advisory: Hermes AI Agent Detection and the End of Claude's Dominance",
+    title: "i³ Threat Advisory: Hermes AI Agent Detection",
     url: "https://www.dtex.ai/resources/i%C2%B3-threat-advisory-hermes-ai-agent-detection/",
     description: "A look at the Hermes AI agent, Claude's latest rival, with actionable detections to catch it before data exfiltration occurs.",
     tags: ["writing", "ai", "agentic-ai", "insider-threat"],
@@ -235,7 +235,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i%C2%B3-threat-advisory-protecting-servers-from-supply-chain-insider-risk/",
     description: "Understand supply chain insider risk and how user behavior monitoring can identify threats in privileged server access.",
     tags: ["writing", "supply-chain", "servers", "insider-threat"],
-    date: "2026-04-24"
+    date: "2026-03-12"
   },
   {
     type: "writing",
@@ -251,7 +251,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-insider-executes-full-kill-chain/",
     description: "DTEX i3 investigates a network specialist who leveraged access and AI to complete all stages of the Insider Threat Kill Chain.",
     tags: ["writing", "ai", "insider-threat", "kill-chain"],
-    date: "2026-04-24"
+    date: "2025-12-10"
   },
   {
     type: "writing",
@@ -259,7 +259,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-insider-access-server-vulnerabilities/",
     description: "Servers are the top target in 75% of breaches. Learn how insider threats, espionage, and AI attacks are reshaping server security defenses.",
     tags: ["writing", "servers", "insider-threat", "espionage"],
-    date: "2026-04-24"
+    date: "2025-10-22"
   },
   {
     type: "writing",
@@ -275,7 +275,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-mitigating-ai-agent-risks/",
     description: "An overview of AI agent risk including task attribution, data exposure, and prompt injection, with mitigation strategies for security teams.",
     tags: ["writing", "ai", "agentic-ai", "risk-management"],
-    date: "2026-04-24"
+    date: "2025-07-30"
   },
   {
     type: "writing",
@@ -283,7 +283,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-when-trusted-hires-turn-rogue/",
     description: "Mitigate insider threats with AI. Learn how generative AI monitoring and enforcement exposed a rogue engineer's sabotage attempt.",
     tags: ["writing", "insider-threat", "sabotage", "ai"],
-    date: "2026-04-24"
+    date: "2025-06-17"
   },
   {
     type: "writing",
@@ -295,11 +295,19 @@ const ITEMS = [
   },
   {
     type: "writing",
+    title: "i³ Threat Advisory: People's Republic of China - Volt Typhoon",
+    url: "https://www.dtex.ai/resources/i3-threat-advisory-peoples-republic-of-china-volt-typhoon/",
+    description: "Detection queries and behavioral indicators for surfacing Volt Typhoon living-off-the-land activity, following the CISA joint advisory on the PRC state-sponsored actor.",
+    tags: ["writing", "china", "nation-state", "insider-threat"],
+    date: "2024-08-20"
+  },
+  {
+    type: "writing",
     title: "i³ Threat Advisory: Insider Risk Detection Strategies for Evolving Nation State Cyber Espionage Campaigns",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-detecting-cyber-espionage/",
     description: "Learn insider risk detection strategies for nation-state cyber espionage. Secure your telecom network with proactive monitoring and employee training.",
     tags: ["writing", "espionage", "nation-state", "telecom"],
-    date: "2026-04-24"
+    date: "2025-02-11"
   },
   {
     type: "writing",
@@ -307,7 +315,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-defending-against-unauthorized-printing/",
     description: "Defend your organization against data loss originating from the persistent threat of unauthorized printing.",
     tags: ["writing", "data-exfiltration", "physical-security"],
-    date: "2026-04-24"
+    date: "2024-11-26"
   },
   {
     type: "writing",
@@ -315,7 +323,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-detecting-preventing-credential-misuse-and-compromise/",
     description: "This Insider Threat Advisory provides important detections and mitigations for detecting and preventing credential misuse.",
     tags: ["writing", "credentials", "insider-threat"],
-    date: "2026-04-24"
+    date: "2024-08-29"
   },
   {
     type: "writing",
@@ -323,7 +331,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-indicators-for-detecting-deterring-and-disrupting-foreign-interference/",
     description: "This DTEX Insider Threat Advisory provides indicators for detecting, deterring, and disrupting foreign interference.",
     tags: ["writing", "foreign-interference", "espionage"],
-    date: "2026-04-24"
+    date: "2024-08-24"
   },
   {
     type: "writing",
@@ -331,7 +339,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-mitigating-living-off-the-land-attacks-using-insider-risk-monitoring/",
     description: "DTEX i3 recommends organizations take the following steps and leverage insider risk monitoring to help prevent living-off-the-land attacks.",
     tags: ["writing", "living-off-the-land", "cloud-security"],
-    date: "2026-04-24"
+    date: "2024-08-24"
   },
   {
     type: "writing",
@@ -339,7 +347,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-detecting-the-use-of-multiple-identities/",
     description: "This Threat Advisory covers detecting the use of multiple identities linking personal accounts on corporate devices.",
     tags: ["writing", "identity", "insider-threat"],
-    date: "2026-04-24"
+    date: "2024-08-20"
   },
   {
     type: "writing",
@@ -347,7 +355,7 @@ const ITEMS = [
     url: "https://www.dtex.ai/resources/i3-threat-advisory-insecure-web-apps-creating-high-risk-for-insider-abuse/",
     description: "DTEX i³ reveals insider risks in misconfigured web apps and shares steps to detect, mitigate, and prevent unauthorized access and data exposure.",
     tags: ["writing", "web-security", "vulnerabilities"],
-    date: "2026-04-24"
+    date: "2024-08-20"
   },
   {
     type: "writing",
