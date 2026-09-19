@@ -201,7 +201,7 @@ const ITEMS = [
     type: "writing",
     title: "i³ Threat Advisory: AI Agent Access Control Without Entitlement",
     url: "https://www.dtex.ai/resources/i3-threat-advisory-ai-agent-access-control/",
-    description: "Examines how AI agent permissions drift beyond user entitlements — ambient authority, compounding cross-agent delegation — and the scoping, allowlisting, and JIT entitlement controls that contain it.",
+    description: "How misconfigured permissions on shared AI agents expose restricted enterprise data, including a case where a user reached Salesforce records without native access, plus the entitlement-parity reviews and audit integrations that close the gap.",
     tags: ["writing", "ai", "agentic-ai", "insider-threat"],
     date: "2026-09-08"
   },
@@ -667,14 +667,6 @@ const ITEMS = [
     url: "https://www.youtube.com/watch?v=iC3svWQIy1M",
     description: "The security and sanitization challenges of electronic equipment in operating rooms.",
     tags: ["cybersecurity", "healthcare"],
-    date: "2025-07-12"
-  },
-  {
-    type: "youtube",
-    title: "Networking Tips for Introverts in the IT Industry",
-    url: "https://www.youtube.com/watch?v=uCfc5qMQs6U",
-    description: "Networking advice for introverts working in IT.",
-    tags: ["cybersecurity", "career"],
     date: "2025-07-12"
   },
   {
