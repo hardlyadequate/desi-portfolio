@@ -1646,6 +1646,38 @@ const ITEMS = [
   },
   {
     type: "newsletter",
+    title: "The Spymasters - Issue #26",
+    url: "https://desi-5.kit.com/posts/the-spymasters-issue-26-insider-threat-weekly",
+    description: "A former German spy chief arrested, a US spy official's $194M fraud, F-35 parts lost via a UPS shortcut, and one prompt that hijacked AI agents.",
+    tags: ["newsletter", "espionage", "fraud", "ai", "insider-threat"],
+    date: "2026-10-11"
+  },
+  {
+    type: "newsletter",
+    title: "The Co-Pilot Who Turned on His Captain - Issue #25",
+    url: "https://desi-5.kit.com/posts/the-co-pilot-who-turned-on-his-captain-issue-25-insider-threat-weekly",
+    description: "A co-pilot allegedly stabbed his captain mid-flight, two federal staff billed several jobs for the same hours, and AI agents leaked screenshots.",
+    tags: ["newsletter", "fraud", "ai", "insider-threat"],
+    date: "2026-10-04"
+  },
+  {
+    type: "newsletter",
+    title: "The Security Chief Was the Hacker - Issue #24",
+    url: "https://desi-5.kit.com/posts/the-security-chief-was-the-hacker-issue-24-insider-threat-weekly",
+    description: "A CISO allegedly hacked 26 companies and spied on staff, an OpenAI agent got into a Medicare portal, and hackers claim the FBI's own staff list.",
+    tags: ["newsletter", "ai", "insider-threat"],
+    date: "2026-09-27"
+  },
+  {
+    type: "newsletter",
+    title: "The Ones They Trusted Most - Issue #23",
+    url: "https://desi-5.kit.com/posts/the-ones-they-trusted-most-issue-23-insider-threat-weekly",
+    description: "A pastor, a financial adviser and a bank manager stole from those who trusted them. Plus Spain logs the first data breach blamed on an AI agent.",
+    tags: ["newsletter", "fraud", "ai", "insider-threat"],
+    date: "2026-09-20"
+  },
+  {
+    type: "newsletter",
     title: "China's Chip Grab - Issue #22",
     url: "https://desi-5.kit.com/posts/china-s-chip-grab-issue-22-insider-threat-weekly",
     description: "Chip secrets smuggled on a hidden camera, Australia's mortgage-fraud web, a border lane sold to a cartel, and an AI agent handed the delete key.",
